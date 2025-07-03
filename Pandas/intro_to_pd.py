@@ -51,4 +51,5 @@ print(type(series_a))
 
 # Pandas Series nesnesi, Python listesinin güçlü bir versiyonu veya numpy dizisinin geliştirilmiş bir versiyonu gibidir.
 
+# Her zaman veri tutarlılığını korumayı unutma. (verilerin tek veri tipine sahip olması)
 

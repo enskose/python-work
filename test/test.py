@@ -1,3 +1,6 @@
+import numpy as np
+import pandas as pd
+
 ''' def dort_islem
 def dort_islem(a, b, islem):
     if islem == "topla":
@@ -171,6 +174,4 @@ def count(nums):
 
 print(count(nums))
 '''
-
-
 
