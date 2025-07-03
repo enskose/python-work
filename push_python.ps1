@@ -23,12 +23,12 @@ if ($files) {
 }
 else {
     git add .
-    Write-Host "Tüm degisiklikler eklendi." -ForegroundColor Yellow
+    Write-Host "Tum degisiklikler eklendi." -ForegroundColor Yellow
 }
 
 # === 3. Commit mesajı boşsa kullanıcıdan al ===
 if ([string]::IsNullOrWhiteSpace($message)) {
-    $message = Read-Host "Lütfen bir commit mesaji girin"
+    $message = Read-Host "Lutfen bir commit mesaji girin"
 }
 
 # === 4. Değişiklik var mı kontrol et ===
@@ -47,7 +47,7 @@ if ($LASTEXITCODE -ne 0) {
 Write-Host "Commit basarili: '$message'" -ForegroundColor Green
 
 # === 6. Pull --rebase ===
-Write-Host "Uzak degisiklikler cekiliyor (pull --rebase)..."
+Write-Host "Uzak degisiklikler cekiliyor (pull --rebase)..." -ForegroundColor Blue
 git pull origin main --rebase
 if ($LASTEXITCODE -ne 0) {
     Write-Host "HATA: Rebase islemi basarisiz oldu. Manuel müdahale gerekebilir." -ForegroundColor Red
@@ -55,7 +55,7 @@ if ($LASTEXITCODE -ne 0) {
 }
 
 # === 7. Push ===
-Write-Host "Degisiklikler GitHub'a gönderiliyor..."
+Write-Host "Degisiklikler GitHub'a gonderiliyor..." -ForegroundColor Blue
 git push origin main
 if ($LASTEXITCODE -ne 0) {
     Write-Host "HATA: Push islemi basarısız oldu." -ForegroundColor Red
