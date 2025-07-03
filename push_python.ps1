@@ -34,7 +34,7 @@ if ([string]::IsNullOrWhiteSpace($message)) {
 # === 4. Değişiklik var mı kontrol et ===
 $pending = git diff --cached --name-only
 if (-Not $pending) {
-    Write-Host "Uyarı: Commit edilecek bir degisiklik yok." -ForegroundColor DarkYellow
+    Write-Host "Uyari: Commit edilecek bir degisiklik yok." -ForegroundColor DarkYellow
     exit 0
 }
 
