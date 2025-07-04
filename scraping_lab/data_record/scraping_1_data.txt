@@ -1,0 +1,20 @@
+Anaokulu Öğretmeni
+Aşçı Yardımcısı
+Bellboy
+Depo Elemanı
+Fizik Öğretmeni-Ortaöğretim
+Garson
+Kimya Teknikeri
+Lojistik Operasyon Elemanı
+Mağaza Satış Personeli
+Muhasebe Sorumlusu
+Notebook Teknisyeni
+Satış Personeli
+Sekreter
+Stajyer Diyetisyen
+Yaşlı Bakım Personeli
+Ziraat Mühendisi
+Çay Servis ve Temizlik Personeli
+Çağrı Merkezi Müşteri Temsilcisi
+İnsan Kaynakları Elemanı
+Şef Garson
